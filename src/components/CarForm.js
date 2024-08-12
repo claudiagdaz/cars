@@ -32,7 +32,7 @@ function CarForm() {
       <form onSubmit={handleSubmit}>
         <div className='field-group'>
           <div className='field'>
-            <label className='label'>Marca y Modelo</label>
+            <label className='label'>Modelo</label>
             <input
               type='text'
               className='input is-expanded'
@@ -42,7 +42,7 @@ function CarForm() {
           </div>
 
           <div className='field'>
-            <label className='label'>Precio de venta</label>
+            <label className='label'>Precio</label>
             <input
               type='number'
               className='input is-expanded'
